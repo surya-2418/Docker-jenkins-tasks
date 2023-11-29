@@ -1,6 +1,6 @@
 pipeline
 {
-    agent any
+    agentany
     stages
     {
         stage( "Clone" )
@@ -10,9 +10,6 @@ pipeline
                 sh ' git clone https://github.com/RameshXT/Docker-jenkins-tasks.git -b docker '
             }
         }
-    }
-    stages
-    {
         stage( "Build" )
         {
             steps
