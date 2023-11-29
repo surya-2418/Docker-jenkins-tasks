@@ -7,6 +7,7 @@ pipeline
         {
             steps
             {
+                sh ' rm -rf * '  
                 sh ' git clone https://github.com/RameshXT/Docker-jenkins-tasks.git -b Docker '
             }
         }
