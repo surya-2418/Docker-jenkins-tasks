@@ -17,7 +17,7 @@ pipeline
         {   
             steps
             {
-                sh ' sudo git clone -b python https://github.com/RameshXT/Docker-jenkins-tasks.git '
+                sh ' sudo git clone -b python https://github.com/surya-2418/Docker-jenkins-tasks.git '
             }
         }
         stage("Build")
