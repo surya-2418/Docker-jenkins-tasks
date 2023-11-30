@@ -8,9 +8,9 @@ pipeline
             steps
             {
                 sh ' sudo rm -rf /var/lib/jenkins/workspace/Docker/* '
-                sh ' docker stop $(docker ps -a -q) '
-                sh ' docker rm $(docker ps -a -q) '
-                sh ' docker rmi $(docker images -q) '
+                // sh ' docker stop $(docker ps -a -q) '
+                // sh ' docker rm $(docker ps -a -q) '
+                // sh ' docker rmi $(docker images -q) '
             }
         }
         stage("Clone")
